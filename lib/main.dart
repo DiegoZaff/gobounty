@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_config/flutter_config.dart';
 import 'navigation/router.dart';
 
-void main() {
+void main() async  {
+  WidgetsFlutterBinding.ensureInitialized(); // Required by FlutterConfig
+  await FlutterConfig.loadEnvVariables();
+
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
