@@ -164,6 +164,7 @@ class GoogleMapWidget extends StatefulWidget {
 }
 
 class _GoogleMapWidgetState extends State<GoogleMapWidget> {
+  // ignore: unused_field
   late GoogleMapController _controller;
   Set<Marker> markers = {};
 
