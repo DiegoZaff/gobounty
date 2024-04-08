@@ -19,7 +19,7 @@ where api_key_here is your google maps api key
 flutter pub get
 ```
 
-- Connect your device to your laptop with usb debugging enabled or run an emulator
+- Connect your device to your laptop with usb/wireless or run an emulator
 
 - Run the following command to run the app
 ```
